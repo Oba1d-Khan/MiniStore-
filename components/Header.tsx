@@ -61,9 +61,11 @@ const Header = () => {
           </div>
 
           {/* mobile pop-up menu  */}
-          <div className="lg:hidden" ref={animationParent}>
+          <div className="lg:hidden " ref={animationParent}>
+
+
             <Image
-              src={!toggle ? "/menu-burger.png" : "/angle-right.png"}
+              src={!toggle ? "/menu-burger.png" : "/icons/close-icon.png"}
               width={20}
               height={20}
               alt="hamburger-menu"
@@ -71,9 +73,9 @@ const Header = () => {
             />
 
             {toggle &&
-              <div className="lg:hidden fixed inset-x-0 top-24 mx-8 flex flex-col items-center rounded-xl bg-gray-800 text-white z-40 shadow-yellow-800 shadow-2xl ">
+              <div className="lg:hidden max-h-[84vh] fixed inset-x-0 top-20 mx-6 flex flex-col items-center rounded-xl bg-gray-800 text-white z-40 shadow-gray-800 shadow-2xl  ">
 
-                <div className="flex flex-col items-center my-8 gap-6">
+                <div className="flex flex-col justify-center h-screen text-xl items-center  gap-8">
                   {navLinks.map((link) => (
                     <Link key={link.key} href={link.href}>
                       {link.label.toUpperCase()}
@@ -84,6 +86,8 @@ const Header = () => {
             }
 
           </div>
+
+
         </div>
       </nav>
     </>
