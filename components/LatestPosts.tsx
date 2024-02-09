@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const LatestPosts = ({ sectionTitle }: String) => {
+const LatestPosts = ({ sectionTitle }: { sectionTitle: string }) => {
     return (
         <>
             <section className="p-6 ">

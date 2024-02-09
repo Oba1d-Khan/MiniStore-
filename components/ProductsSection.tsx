@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ProductsSection = ({ sectionTitle }: String) => {
+const ProductsSection = ({ sectionTitle }: { sectionTitle: string }) => {
     return (
         <>
             <div className="max-w-[85vw] mx-auto ">
