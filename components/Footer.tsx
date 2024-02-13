@@ -56,7 +56,7 @@ const Footer = () => {
                             href="#"
                         >
                             <Image
-                                src="/icons/linkedin-logo.png"
+                                src="/icons/linkedIn-logo.png"
                                 width={16}
                                 height={16}
                                 alt="ig-logo"

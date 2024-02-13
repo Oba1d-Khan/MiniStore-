@@ -6,7 +6,7 @@ const Hero = () => {
         <>
             <section className="bg-[#D7DDDF] flex items-center md:justify-between">
                 <Image
-                    src="/angle-left.png"
+                    src="/icons/angle-left.png"
                     width={60}
                     height={60}
                     alt="angle-left"
@@ -31,7 +31,7 @@ const Hero = () => {
                 </div>
 
                 <Image
-                    src="/angle-right.png"
+                    src="/icons/angle-right.png"
                     width={60}
                     height={60}
                     alt="angle-right"

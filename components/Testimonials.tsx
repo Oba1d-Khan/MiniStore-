@@ -8,7 +8,7 @@ const Testimonials = () => {
             <section className="text-gray-600 body-font">
                 <div className="container flex items-center justify-center px-1 md:px-5 py-24 mx-auto">
                     <Image
-                        src="/angle-left.png"
+                        src="/icons/angle-left.png"
                         width={30}
                         height={30}
                         alt="angle-left"
@@ -61,7 +61,7 @@ const Testimonials = () => {
                     </div>
 
                     <Image
-                        src="/angle-right.png"
+                        src="/icons/angle-right.png"
                         width={30}
                         height={30}
                         alt="angle-right"

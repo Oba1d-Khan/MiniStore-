@@ -35,7 +35,7 @@ const Header = () => {
             <ul className="flex gap-5">
               <Link href="#">
                 <Image
-                  src="/search-icon.png"
+                  src="/icons/search-icon.png"
                   width={20}
                   height={20}
                   alt="search-icon"
@@ -43,7 +43,7 @@ const Header = () => {
               </Link>
               <Link href="#">
                 <Image
-                  src="/user-icon.png"
+                  src="/icons/user-icon.png"
                   width={20}
                   height={20}
                   alt="user-icon"
@@ -51,7 +51,7 @@ const Header = () => {
               </Link>{" "}
               <Link href="#">
                 <Image
-                  src="/cart-icon.png"
+                  src="/icons/cart-icon.png"
                   width={20}
                   height={20}
                   alt="cart-icon"
@@ -65,7 +65,7 @@ const Header = () => {
 
 
             <Image
-              src={!toggle ? "/menu-burger.png" : "/icons/close-icon.png"}
+              src={!toggle ? "/icons/menu-burger.png" : "/icons/close-icon.png"}
               width={20}
               height={20}
               alt="hamburger-menu"
